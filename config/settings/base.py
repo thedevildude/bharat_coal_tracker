@@ -90,8 +90,8 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
+    "bharat_coal_tracker.facility",
     "bharat_coal_tracker.users",
-    # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
